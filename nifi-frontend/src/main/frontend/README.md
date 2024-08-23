@@ -10,6 +10,7 @@ Overtime, these will all be modernized and possibly brought into this Nx repo to
 
 The structure of the application is laid out in the following manner.
 
+```
 app
 ├── pages
 │   ├── flow-designer
@@ -25,6 +26,7 @@ app
 ├── service
 ├── state
 └── ui
+```
 
 Each page has its own directory inside `pages`. Within each page, the primary content is in `feature`, any services for that page are in `service`,
 state management for the feature is in `state`, and any ui components referenced by the feature are in `ui`. The app root also contains `state`,
